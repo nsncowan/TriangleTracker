@@ -1895,6 +1895,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "TriangleTracker/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TriangleTracker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TriangleTracker.dll": {}
+        }
       }
     }
   },
@@ -6704,13 +6714,19 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "TriangleTracker/1.0.0": {
+      "type": "project",
+      "path": "../TriangleTracker/TriangleTracker.csproj",
+      "msbuildProject": "../TriangleTracker/TriangleTracker.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
-      "Microsoft.NET.Test.Sdk >= 17.3.2"
+      "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "TriangleTracker >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6737,7 +6753,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\nsnco\\OneDrive\\Desktop\\TriangleTracker.Solution\\TriangleTracker\\TriangleTracker.csproj": {
+              "projectPath": "C:\\Users\\nsnco\\OneDrive\\Desktop\\TriangleTracker.Solution\\TriangleTracker\\TriangleTracker.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
